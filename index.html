@@ -9,28 +9,28 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet"/>
     <link rel="stylesheet" href="link rel="preconnect href="https://fonts.googleapis.com">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/main.min.css">
 </head>
 <body>
  
-   <header>
+   <header class="header">
     <div class="container">
-<div class="main-navigation">
-    <nav class="main-nav">
-        <div class="logo-head">
+<div class="header__nav">
+    <nav class="header__main-nav">
+        <div class="header__logo">
             <a class="logo" href="./index.html"><span class="web">Web</span>Studio</a>
         </div>   
     
-            <ul class="site-nav">
-                <li class="site-nav-linc"><a href="./index.html" class="linc curent">Студия</a></li>
-                <li class="site-nav-linc"><a href="./portfolio.html" class="linc">Портфолио</a></li>
-                <li class="site-nav-linc"><a href="" class="linc">Контакты</a></li>
+            <ul class="site__nav">
+                <li class="site__nav-linc"><a href="./index.html" class="linc curent">Студия</a></li>
+                <li class="site__nav-linc"><a href="./portfolio.html" class="linc">Портфолио</a></li>
+                <li class="site__nav-linc"><a href="" class="linc">Контакты</a></li>
             </ul>
         
      </nav>
             <ul class="contact">
-                 <li class="contact-item"> <a class="contact-link" href="emailto:info@devstudio.com"><svg class="contacts-icon" width="16" height="12"><use href="./images/symbol-defs.svg#icon-envelope"> </use></svg>info@devstudio.com </a></li>
-                 <li> <a class="contact-link" href="tel:+380961111111"><svg class="contacts-icon" width="16" height="12"><use href="./images/symbol-defs.svg#icon-phone"> </use></svg> +38 096 111 11 11</a></li>
+                 <li class="contact__item"> <a class="contact__link" href="emailto:info@devstudio.com"><svg class="contact__icon" width="16" height="12"><use href="./images/symbol-defs.svg#icon-envelope"> </use></svg>info@devstudio.com </a></li>
+                 <li> <a class="contact__link" href="tel:+380961111111"><svg class="contact__icon" width="16" height="12"><use href="./images/symbol-defs.svg#icon-phone"> </use></svg> +38 096 111 11 11</a></li>
                  
             </ul>
         
@@ -41,11 +41,11 @@
 
     <main>
         
-            <section class="hero">
+            <section class="section__hero">
      <div class="container">
 
-     <div class="hero-block">
-        <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
+     <div class="hero__block">
+        <h1 class="hero__title">Эффективные решения для вашего бизнеса</h1>
         <button data-modal-open class="button-primary" type="button">Заказать услугу</button>
      </div>
      </div>
@@ -55,25 +55,25 @@
             <section class="qualities">
             
          <div class="container">
-            <h2 class="visually-hidden">наши качества</h2>
+            <h2 class="visually__hidden">наши качества</h2>
             <ul class="feature">
                 <li>
-                    <div class="icon-qualitis" ><svg class="qs-icon" width="70" height="70"><use href="./images/symbol-defs.svg#icon-antenna" ></use></svg></div>
+                    <div class="icon__qualitis" ><svg class="qualiti__icon" width="70" height="70"><use href="./images/symbol-defs.svg#icon-antenna" ></use></svg></div>
                     <h3 class="title">Внимание к деталям</h3>
                     <p class="description">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
                 </li>
                 <li>
-                    <div class="icon-qualitis"><svg class="qs-icon" width="70" height="70"><use href="./images/symbol-defs.svg#icon-clock" ></use></svg></div>
+                    <div class="icon__qualitis"><svg class="qualiti__con" width="70" height="70"><use href="./images/symbol-defs.svg#icon-clock" ></use></svg></div>
                     <h3 class="title">Пунктуальность</h3>
                     <p class="description">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
                 </li>
                 <li>
-                    <div class="icon-qualitis"><svg class="qs-icon" width="70" height="70"><use href="./images/symbol-defs.svg#icon-diagram" ></use></svg></div>
+                    <div class="icon__qualitis"><svg class="qualiti__con" width="70" height="70"><use href="./images/symbol-defs.svg#icon-diagram" ></use></svg></div>
                     <h3 class="title">Планирование</h3>
                     <p class="description">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
                 </li>
                 <li>
-                    <div class="icon-qualitis"><svg class="qs-icon" width="70" height="70"><use href="./images/symbol-defs.svg#icon-astronaut" ></use></svg></div>
+                    <div class="icon__qualitis"><svg class="qualiti__con" width="70" height="70"><use href="./images/symbol-defs.svg#icon-astronaut" ></use></svg></div>
                     <h3 class="title">Современные технологии</h3>
                     <p class="description">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                 </li>
@@ -85,26 +85,26 @@
      
             <section class="section">
         <div class="container">
-            <h2 class="section-title">Чем мы занимаемся</h2>
+            <h2 class="section__title">Чем мы занимаемся</h2>
             <ul class="images">
-                <li class="img-work">
+                <li class="img__work">
                     <img src="./images/img1.jpg" alt="ноутбук на столе" width="370">
-                    <div class="img-text">
+                    <div class="img__text">
                         <p>Десктопные приложения</p>
                     </div>
                 </li>
-                <li class="img-work">
+                <li class="img__work">
                     <img src="./images/img2.jpg" alt="смартфон в руке" width="370">
-                    <div class="img-text">
+                    <div class="img__text">
                         <p>Мобильные приложения</p>
                     </div>
                 </li>
-                <li class="img-work">
+                <li class="img__work">
                     <img src="./images/img3.jpg" alt="планшет в руке" width="370">
-                    <div class="img-text">
+                    <div class="img__text">
                         <p>Дизайнерские решения</p>
                     </div>
-                </li>
+                </li__
                 
             </ul>
         </div>
@@ -114,7 +114,7 @@
         <section class="section-team">
         <div class="container">
         
-            <h2 class="section-title">Наша команда</h2>
+            <h2 class="section__title">Наша команда</h2>
         
             <ul class="comand">
                 <li class="comand-bloc">
@@ -175,7 +175,7 @@
         </section>
         <section class="group-section">
             <div class="container">
-            <h2 class="section-title">Постоянные клиенты</h2>
+            <h2 class="section__title">Постоянные клиенты</h2>
             <ul class="group-list">
                 <li class="group-item"><a class="group-link" href=""><svg class="group" width="106" height="60"><use href="./images/symbol-defs.svg#icon-group-1"></use></svg></a></li>
                 <li class="group-item"><a class="group-link" href=""><svg class="group" width="106" height="60"><use href="./images/symbol-defs.svg#icon-group-2"></use></svg></a></li>
@@ -239,7 +239,7 @@
             <button class="button-modal" type="button" data-modal-close ><svg class="close-svg">
                 <use href="./images/symbol-defs.svg#icon-close"></use>
             </svg></button>
-            <h2 class="model-title">Оставьте свои данные, мы вам перезвоним</h2>
+            <h2 class="modal-title">Оставьте свои данные, мы вам перезвоним</h2>
         <form class="form">
             <div class="form-wrapers">
           <label class="form-label">
@@ -288,7 +288,7 @@
         </div>
           
             <label class="form-label-checkbox">
-             <input type="checkbox" class="visually-hidden form-check-input"/>
+             <input type="checkbox" class="visually__hidden form-check-input"/>
            <span class="form-checkbox">
              <svg class="form-checkbox-icon" width="13" height="10">
              <use href="./images/symbol-defs.svg#icon-check"></use>
