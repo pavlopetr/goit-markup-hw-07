@@ -1,7 +1,7 @@
-@import './base/reset.scss';
+@import './utils/variables';
+@import './base/reset';
 @import './components/buttons';
 @import './components/modal';
-@import './utils/variables';
 @import './base/container';
 @import './layout/header';
 @import './layout/logo';

@@ -1,4 +1,14 @@
 @charset "UTF-8";
+:root {
+  --primary-text-color: #212121;
+  --title-text-color: #757575;
+  --accent-color: #2196F3;
+  --hero-title-color: #ffffff;
+  --background-hero-color: #2F303A;
+  --transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  --from-modal-color: rgba(33, 150, 243, 1);
+}
+
 h1, h2, h3, h4, p, ul {
   margin: 0px;
   padding-left: 0px;
@@ -27,7 +37,7 @@ img {
   cursor: pointer;
   color: var(--primary-text-color);
   background-color: var(--accent-color);
-  font-family: 'Roboto';
+  font-family: "Roboto", sans-serif;
   font-style: normal;
 }
 
@@ -155,16 +165,6 @@ img {
   fill: var(--accent-color);
 }
 
-:root {
-  --primary-text-color: #212121;
-  --title-text-color: #757575;
-  --accent-color: #2196F3;
-  --hero-title-color: #ffffff;
-  --background-hero-color: #2F303A;
-  --transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  --from-modal-color: rgba(33, 150, 243, 1);
-}
-
 .container {
   width: 1200px;
   padding-left: 15px;
@@ -210,7 +210,7 @@ img {
 body {
   background-color: var(--hero-title-color);
   color: var(--title-text-color);
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   letter-spacing: 0.03em;
@@ -340,7 +340,7 @@ address {
   margin-bottom: 9px;
   display: block;
   color: var(--hero-title-color);
-  font-family: 'Roboto';
+  font-family: "Roboto", sans-serif;
   font-style: normal;
 }
 

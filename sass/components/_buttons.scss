@@ -2,7 +2,7 @@
     cursor: pointer;
     color: var(--primary-text-color);
     background-color: var(--accent-color);
-    font-family: 'Roboto';
+    font-family: $main-fonts;
     font-style: normal;
 }
 .button-primary {
